@@ -9,7 +9,7 @@ Validations uses [GORM](https://github.com/jinzhu/gorm) callbacks to handle *val
 ```go
 import (
   "github.com/jinzhu/gorm"
-  "github.com/qor/validations"
+  "github.com/qorx/validations"
 )
 
 func main() {
@@ -56,7 +56,7 @@ db.Create(&User{}).GetErrors() // => []error{"age need to be 18+", "name can't b
 
 ## [Govalidator](https://github.com/asaskevich/govalidator) integration
 
-Qor [Validations](https://github.com/qor/validations) supports [govalidator](https://github.com/asaskevich/govalidator), so you could add a tag into your struct for some common *validations*, such as *check required*, *numeric*, *length*, etc.
+Qor [Validations](https://github.com/qorx/validations) supports [govalidator](https://github.com/asaskevich/govalidator), so you could add a tag into your struct for some common *validations*, such as *check required*, *numeric*, *length*, etc.
 
 ```
 type User struct {

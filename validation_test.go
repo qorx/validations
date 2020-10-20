@@ -9,8 +9,8 @@ import (
 	"github.com/asaskevich/govalidator"
 	"github.com/jinzhu/gorm"
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/qor/qor/test/utils"
-	"github.com/qor/validations"
+	"github.com/qorx/qor/test/utils"
+	"github.com/qorx/validations"
 )
 
 var db *gorm.DB
