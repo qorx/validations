@@ -70,7 +70,7 @@ type User struct {
 
 ## Customize errors on form field
 
-If you want to display errors for each form field in [QOR Admin](http://github.com/qor/admin), you could register your error like this:
+If you want to display errors for each form field in [QOR Admin](http://github.com/qorx/admin), you could register your error like this:
 
 ```go
 func (user User) Validate(db *gorm.DB) {
